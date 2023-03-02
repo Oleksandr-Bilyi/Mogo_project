@@ -1,4 +1,4 @@
-function Myfunction(){
+/*function Myfunction(){
     document.getElementById('change').innerHTML= 'MOGO';
 }
-let carName = "MoGoOOO";
+let carName = "MoGoOOO";*/

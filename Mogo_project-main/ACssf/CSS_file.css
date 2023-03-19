@@ -27,9 +27,10 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  background: url("../images/Intro_picture/picture.png") center no-repeat;
+  background-image: url("picture.jpg");
+  background-position: center center;
   -webkit-background-size: cover;
+  background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
 }
@@ -288,7 +289,7 @@ margin: 0 auto 40px;
 .Facts{
     background-color: rgb(149, 225, 211);
     margin-top: 110px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     width: 100%;
 }
 
@@ -316,4 +317,43 @@ margin: 0 auto 40px;
 .stat_text {
   font-size: 14px;
   text-transform: uppercase;
+}
+
+/*Amazing services*/
+
+.container_1 {
+  width: 100%;
+  max-width: 1255px;
+  margin: 0 auto;
+}
+
+.sect {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.sect_img {
+  height:100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.sect_item {
+  width: 33.3%;
+  padding: 60px 60px;
+}
+
+.sect_headers {
+  color:black;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.sect_text {
+  font-family: 'Roboto', sans-serif;
+  color:#9f9f9f;
+  font-size: 15px;
 }
